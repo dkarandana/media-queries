@@ -1,0 +1,62 @@
+.ref{
+	margin-top: 10px;
+    display: block;
+}
+
+.media nav a{
+    display: inline-block;
+    border: 1px dashed navy;
+    padding: 10px 15px;
+
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+
+@media all{
+	a.all{
+		color: #8bc34a;
+	}
+}
+
+
+@media screen{
+	a.screen{
+		color: #ffc107;
+	}
+}
+
+
+@media print{
+	a.print{
+		color: #673ab7;
+	}
+}
+
+
+
+
+/*.print-only,
+.print-only > div{
+	display: none;
+}
+
+
+
+@media screen{
+	.media .value:after {
+	  content: "Screen";
+	}
+}
+
+@media print{
+	.media .value:after {
+	  content: "Print";
+	}
+}
+
+@media print and ( min-resolution: 100dpi ) {
+	.above-300-dpi{
+		display: block;
+	}
+}*/

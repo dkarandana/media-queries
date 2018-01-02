@@ -1,0 +1,40 @@
+/* Media Types */
+
+@media all{
+	a.all{
+		color: #8bc34a;
+	}
+
+	.value:after{
+	  content: "All";
+	}
+}
+
+@media screen{
+	a.screen{
+		color: #ffc107;
+	}
+
+	.value:after{
+	  content: "Screen";
+	}
+}
+
+@media print{
+	a.print{
+		color: #673ab7;
+	}
+	.value:after{
+	  content: "Print";
+	}
+}
+
+
+@media speech{
+	a.speech{
+		color: #e91e63;
+	}
+	.value:after{
+	  content: "I would like to talk with you";
+	}
+}
